@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main>
+        <section>
+
+            <h1>Classes</h1>
+
+            <div class="criarCarro">
+                <h2>Nome</h2>
+                <input type="text" name="f_nome" id="f_nome">
+            </div>
+
+            <div class="criarCarro">
+                <h2>Portas</h2>
+                <input type="text" name="f_portas" id="f_portas">
+            </div>
+
+            <div class="criarCarro">
+                <h2>Blindagem</h2>
+                <input type="number" name="f_blindagem" id="f_blindagem" disabled value="0">
+            </div>
+
+            <div class="criarCarro">
+                <h2>Munição</h2>
+                <input type="number" name="f_municao" id="f_municao" disabled value="0">
+            </div>
+
+            <div>
+                <div>
+                    <p>Tipo</p>
+                </div>
+                <div class="criarCarro">
+                    <input type="radio" name="f_tipoMilitar" id="f_tipoMilitar" value="m">
+                    <p>Militar</p>
+                </div>
+
+                <div class="criarCarro">
+                    <input type="radio" name="f_tipoComum" id="f_tipoComum" value="m">
+                    <p>Comum</p>
+                </div>
+            </div>
+
+            <button id="btn_addCarro">Adicionar</button>
+
+            <div class="carros" id="carros"></div>
+
+        </section>
+    </main>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>

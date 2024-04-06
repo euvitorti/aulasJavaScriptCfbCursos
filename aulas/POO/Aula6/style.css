@@ -1,0 +1,36 @@
+main {
+    padding: 5rem 10rem 1rem 10rem;
+    justify-content: center;
+}
+
+section {
+    text-align: center;
+    padding: 5rem 5rem 1rem 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(65, 181, 248, 0.838);
+}
+
+div {
+    padding: 1rem;
+}
+
+button {
+    padding: 1rem;
+    border-radius: 5rem;
+    background-color: rgb(65, 101, 246);
+    color: white;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.res {
+    border-radius: 1rem;
+    background-color: rgb(65, 101, 246);
+    color: white;
+}

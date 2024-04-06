@@ -1,0 +1,19 @@
+h1 {
+    text-align: center;
+}
+
+section {
+    padding: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    border: 1rem solid;
+    padding: 1rem;
+    border-radius: 1rem;
+
+}
