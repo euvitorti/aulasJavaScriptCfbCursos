@@ -24,7 +24,7 @@ function* contador() {
     let i = 0
     while (true) {
         yield i++
-        if(i > 5){
+        if (i > 5) {
             break
         }
     }
