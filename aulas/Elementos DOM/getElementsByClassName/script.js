@@ -1,7 +1,10 @@
 const todosCursos = [...document.getElementsByClassName("curso")];
-const primeiroCurso = [...document.getElementsByClassName("c1")];
-const segundoCurso = [...document.getElementsByClassName("c2")];
+const canal = [...document.getElementsByClassName("canal")];
 
 console.log(todosCursos);
-console.log(primeiroCurso);
-console.log(segundoCurso);
+console.log(canal);
+
+// ADICIONANDO UMA CLASSE
+todosCursos.map((el) => {
+    el.classList.add("destaque");
+});

@@ -2,8 +2,8 @@
 
 // querySelector - Retorna o primeiro que encontrar
 
-const divTodos = document.querySelector("div");
-const todasDivs = [...document.querySelectorAll("div")];
+const div = document.querySelector("div");
+const todasDivs = [...document.querySelectorAll(".canal")];
 
-console.log(divTodos);
+console.log(div);
 console.log(todasDivs);
