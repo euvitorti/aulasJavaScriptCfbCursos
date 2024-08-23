@@ -1,15 +1,15 @@
 * {
-    padding: 0px;
+    padding: 1rem;
     margin: 0px;
     border: none;
 }
 
 main {
+    padding: 1rem;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 100%;
 }
 
 button {
@@ -21,7 +21,7 @@ button {
     color: #fff;
 }
 
-.cursoc1 {
+.curso {
     display: flex;
     justify-content: center;
     width: 200px;
