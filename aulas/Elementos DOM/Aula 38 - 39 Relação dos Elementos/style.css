@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+}
+
+section{
+    padding: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+div {
+    border: 0.1rem solid;
+    padding: 1rem;
+    border-radius: 0.7rem;
+
+}
+
+.destaque {
+    background-color: blueviolet !important;
+    color: white !important;
+    border-color: black !important;
+}
