@@ -18,6 +18,6 @@ const filtroMenoridade = (valor) => {
 const maiorDeIdade = idades.filter(filtroMaioridade);
 const menorDeIdade = idades.filter(filtroMenoridade);
 
-console.log(idades);
-console.log(maiorDeIdade);
-console.log(menorDeIdade);
+console.log(`Todas as idades: ${idades}.\n`);
+console.log(`Menor de idade: ${maiorDeIdade}.\n`);
+console.log(`Maior de idade: ${menorDeIdade}.`);
