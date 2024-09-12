@@ -1,0 +1,17 @@
+* {
+  text-align: center;
+  padding: 1rem;
+}
+
+.caixa {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+button {
+  width: 50%;
+  border-radius: 1rem;
+  background-color: #a9f2b4;
+  cursor: pointer;
+}
